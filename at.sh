@@ -45,6 +45,8 @@ if ls lol/asdfg &> /dev/null ; then
 echo " YOU ARE ALREADY UPDATED"
 else
 echo "update found, please update"
+rm -rf lol &> dev/null
+git clone https://github.com/soumenh/lol &> dev/null
 exit 0
 fi
 ;;
