@@ -39,7 +39,7 @@ done
 ;;
 "KR")
 echo "searching update..."
-if ls /sdcard/t.sh ; then
+if ls /sdcard/t.sh &> /dev/null ; then
 echo " YOU ARE ALREADY UPDATED"
 else
 echo "update found, please update"
