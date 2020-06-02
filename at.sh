@@ -1,6 +1,6 @@
 clear
-rm -rf lol &> dev/null
-git clone https://github.com/soumenh/lol &> /dev/null
+rm -rf lol 
+git clone https://github.com/soumenh/lol
 echo -e "\e[34m [Select Your Pubg] "
 PS3='
 Enter Your choice ~> '
