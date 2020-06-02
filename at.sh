@@ -16,21 +16,21 @@ case $opt in
 PS3='
 Enter Your choice ~> '
 echo -e "\e[33m "
-options=("       ON"
-"       OF"
-"       BACK")
+options=("        ON"
+"        OF"
+"        BACK")
 select opt in "${options[@]}"
 do
 case $opt in
-"       ON")
+"        ON")
 echo "hack on"
 exit 0
 ;;
-"       OF")
+"        OF")
 echo "hack off"
 exit 0
 ;;
-"       BACK")
+"        BACK")
 bash t.sh
 
 
