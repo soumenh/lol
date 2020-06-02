@@ -41,7 +41,7 @@ done
 ;;
 "KR")
 echo "searching update..."
-if ls lol/soumen &> /dev/null ; then
+if ls lol/Soumen &> /dev/null ; then
 echo " YOU ARE ALREADY UPDATED"
 else
 echo "update found, please update"
