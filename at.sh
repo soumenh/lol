@@ -1,6 +1,6 @@
 clear
-rm -rf lol
-git clone https://github.com/soumenh/lol
+
+
 echo -e "\e[34m [Select Your Pubg] "
 PS3='
 Enter Your choice ~> '
@@ -41,7 +41,7 @@ done
 ;;
 "KR")
 echo "searching update..."
-if ls lol/asdfg &> /dev/null ; then
+if ls lol/soumen &> /dev/null ; then
 echo " YOU ARE ALREADY UPDATED"
 else
 echo "update found, please update"
