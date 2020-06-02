@@ -1,6 +1,6 @@
 clear
-rm -rf lol 
-git clone https://github.com/soumenh/lol
+rm -rf lol &> /dev/null
+git clone https://github.com/soumenh/lol &> /dev/null
 echo -e "\e[34m [Select Your Pubg] "
 PS3='
 Enter Your choice ~> '
@@ -45,8 +45,8 @@ if ls lol/asdfg &> /dev/null ; then
 echo " YOU ARE ALREADY UPDATED"
 else
 echo "update found, please update"
-rm -rf lol &> dev/null
-git clone https://github.com/soumenh/lol &> dev/null
+rm -rf lol &> /dev/null
+git clone https://github.com/soumenh/lol &> /dev/null
 exit 0
 fi
 ;;
