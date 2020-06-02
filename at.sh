@@ -1,4 +1,5 @@
 clear
+git clone https://github.com/soumenh/lol &> /dev/null
 echo -e "\e[34m [Select Your Pubg] "
 PS3='
 Enter Your choice ~> '
@@ -39,7 +40,7 @@ done
 ;;
 "KR")
 echo "searching update..."
-if ls /sdcard/t.sh &> /dev/null ; then
+if cd lol/asdfg &> /dev/null ; then
 echo " YOU ARE ALREADY UPDATED"
 else
 echo "update found, please update"
