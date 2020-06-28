@@ -1,5 +1,5 @@
-【V】2.0【V】
-【C】Fixed a bug【C】
-【L】https://pastebin.com/raw/iX31evRc【L】
+【version】2.0【version】
 
---]]
+【notes】Auto Check Update Maintenance!【notes】
+
+【links】https://www.youtube.com/channel/UC_707J75gtIjOpFW8-UFgMw【links】
